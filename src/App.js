@@ -130,7 +130,7 @@ export default function App() {
                       {user && user.username === 'test_user' && (
                         <TabItem title="AutReportTEST">
                           <br></br>
-                          <iframe title="" width="800" height="400" src="https://mybinder.org/v2/gh/Evnazx/AutoReportDORSTest/HEAD?labpath=ReportTest.ipynb" frameborder="0" allowFullScreen="true"></iframe>
+                          <iframe title="" width="800" height="400" src="https://mybinder.org/v2/gh/Evnazx/AutoReportDORSTest/HEAD?urlpath=voila/render/ReportTest.ipynb" frameborder="0" allowFullScreen="true"></iframe>
                         </TabItem>
                       )}
                     </Tabs>
